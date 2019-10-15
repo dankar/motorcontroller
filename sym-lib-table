@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name extra)(type Legacy)(uri ${KIPRJMOD}/extra.lib)(options "")(descr ""))
+  (lib (name MOSFET)(type Legacy)(uri ${KIPRJMOD}/STP55NF06L.lib)(options "")(descr ""))
+)

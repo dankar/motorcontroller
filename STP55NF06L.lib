@@ -1,0 +1,47 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# STP55NF06L
+#
+DEF STP55NF06L U 0 40 Y N 1 L N
+F0 "U" -400 339 50 H V L BNN
+F1 "STP55NF06L" -400 -457 50 H V L BNN
+F2 "TO254P1040X460X1935-3" 0 0 50 H I L BNN
+F3 "N-channel 60 V, 0.014 Ohm typ., 35 A StripFET II Power MOSFET in a TO-220 package" 0 0 50 H I L BNN
+F4 "STMicroelectronics" 0 0 50 H I L BNN
+F5 "Unavailable" 0 0 50 H I L BNN
+F6 "STP55NF06L" 0 0 50 H I L BNN
+F7 "TO-220 STMicroelectronics" 0 0 50 H I L BNN
+F8 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -70 30 -70 0 N
+P 2 0 0 10 -70 0 -70 -30 N
+P 2 0 0 10 -70 125 -70 100 N
+P 2 0 0 10 -70 100 -70 75 N
+P 2 0 0 6 -70 0 0 0 N
+P 2 0 0 6 0 0 0 -100 N
+P 2 0 0 10 -70 -75 -70 -100 N
+P 2 0 0 10 -70 -100 -70 -125 N
+P 2 0 0 10 -100 100 -100 -100 N
+P 2 0 0 6 0 -100 -70 -100 N
+P 2 0 0 6 50 100 50 20 N
+P 2 0 0 6 50 20 50 -100 N
+P 2 0 0 6 0 -100 50 -100 N
+P 2 0 0 6 -70 100 50 100 N
+P 2 0 0 6 80 30 70 20 N
+P 2 0 0 6 70 20 50 20 N
+P 2 0 0 6 50 20 30 20 N
+P 2 0 0 6 30 20 20 10 N
+C 0 -100 14 0 0 0 N
+C 0 100 14 0 0 0 N
+P 3 0 0 6 50 20 30 -10 70 -10 F
+P 3 0 0 6 -60 0 -20 30 -20 -30 F
+X S 3 0 -200 100 U 40 40 0 0 P 
+X G 1 -200 -100 100 R 40 40 0 0 P 
+X D 2 0 200 100 D 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
